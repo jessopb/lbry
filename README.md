@@ -8,6 +8,19 @@ This project provides an SDK for building applications using the LBRY protocol. 
 
 Our [releases page](https://github.com/lbryio/lbry/releases) contains pre-built binaries of the latest release, pre-releases, and past releases, for macOS, Debian-based Linux, and Windows. [Automated travis builds](http://build.lbry.io/daemon/) are also available for testing.
 
+### Terminal
+
+```
+~/> wget --quiet -O ~/new_daemon.zip https://github.com/lbryio/lbry/releases/download/[version]/lbrynet-linux.zip
+~/> unzip -o -u ~/new_daemon.zip
+```
+
+## Upgrading
+
+Backup your lbrynet folder and wallet. (https://lbry.io/faq/backup-data).
+
+Follow installation instructions to replace lbrynet executable.
+
 ## Usage
 
 Run `lbrynet start` to launch the API server.
