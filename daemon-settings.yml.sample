@@ -1,0 +1,23 @@
+# This is an example daemon-settings.yml file.
+# See https://lbry.tech/resources/daemon-settings for all configuration keys and values
+
+# FILES
+# data_dir: '/downloads'
+# delete_blobs_on_remove: True
+# download_directory: 'c:\lbry\lbrynet'
+
+# WALLET
+# lbryum_servers: ['lbryumx1.lbry.io:50001','lbryumx2.lbry.io:50001']
+
+# NETWORK
+# api_port: 5279
+# dht_node_port: 4444
+# peer_port: 3333
+# reflector_port: 5566
+# use_upnp: True
+
+# SECURITY
+# use_auth_http: False
+
+# OTHER
+# components_to_skip: [`reflector`,`hash_announcer`]
